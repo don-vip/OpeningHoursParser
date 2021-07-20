@@ -140,6 +140,7 @@ ext {
 publishing {
     publications {
         Release(MavenPublication) {
+            from components.java
             groupId 'ch.poole'
             artifactId 'OpeningHoursParser'
             artifact jar
